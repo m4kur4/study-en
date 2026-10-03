@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+cd "$(dirname "$0")/../.." || exit 1
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/check-notebook.ps1
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/scan-public.ps1 -Mode staged

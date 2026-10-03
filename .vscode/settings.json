@@ -1,0 +1,14 @@
+{
+  "files.autoSave": "afterDelay",
+  "editor.wordWrap": "on",
+  "explorer.sortOrder": "modified",
+  "workbench.editor.enablePreview": false,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "[markdown]": {
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    }
+  }
+}

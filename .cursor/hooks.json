@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "hooks": {
+    "beforeShellExecution": [
+      {
+        "command": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File .cursor/hooks/block-git.ps1",
+        "matcher": "git(?:\\.exe)?\\s+(?:-c\\s+\\S+\\s+)*(?:commit|push)\\b",
+        "failClosed": true
+      }
+    ]
+  }
+}
