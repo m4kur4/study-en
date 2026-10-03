@@ -35,3 +35,4 @@ notes/phrases/that-looks-like.md | That looks like ___ | casual | 見たとこ�
 notes/phrases/why-did-i-do-that.md | Why did I do that? | casual | 自分のしたことを後悔して、どうしてそんなことをしたのか、と自分に聞く。 | phrase
 notes/phrases/i-guess.md | I guess | casual | はっきり確信はない、またはあまり気が進まない同意である。 | phrase
 notes/phrases/anyway.md | anyway | casual | 話を戻したり、話題を切り替えたりする。 | phrase
+notes/phrases/in-recent-years.md | in recent years | neutral | 近年では、という時期の置き方である。 | phrase
