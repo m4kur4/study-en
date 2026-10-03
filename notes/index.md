@@ -84,8 +84,25 @@ notes/phrases/not-all-right.md | not all right | neutral | 大丈夫ではない
 notes/phrases/that-s-why.md | That's why | casual | 前に言ったことが、その結果の理由だ、と結ぶ。 | phrase
 notes/phrases/probably.md | probably | neutral | おそらく、そうだろう、と確度を下げる。 | phrase
 notes/phrases/intermediate.md | intermediate | neutral | 二つの段階のあいだにある。 | phrase
+notes/phrases/passionate-about.md | passionate about | neutral | そのことに強く熱中している。 | phrase
+notes/phrases/language-learning.md | language learning | neutral | 言語を学ぶことである。 | phrase
+notes/phrases/tendency.md | tendency | neutral | そうなりやすい、という傾きである。 | phrase
+notes/phrases/patronize.md | patronize | neutral | 相手を下に見て、子ども扱いで話す。 | phrase
+notes/phrases/you-know.md | you know | casual | 相手も分かっているだろう、と確認したり、話の間に軽く挟んだりする。 | phrase
+notes/phrases/outside-of.md | outside of | neutral | それを除いて、それ以外では、である。 | phrase
+notes/phrases/less-practical.md | less practical | neutral | 実用性がより低い。 | phrase
+notes/phrases/pop-stars.md | pop stars | casual | ポップスで有名な歌手である。 | phrase
+notes/phrases/iconic.md | iconic | casual | その人や物が、分野を代表する象徴になっている。 | phrase
+notes/phrases/a-couple-of.md | a couple of | casual | 二つ、または少数である。 | phrase
+notes/phrases/dislike.md | dislike | neutral | 好きではない。 | phrase
+notes/phrases/come-from.md | come from | neutral | 出身や起源がそこである。 | phrase
+notes/phrases/shellfish.md | shellfish | neutral | エビ、カニ、貝など、殻のある海の生き物である。 | phrase
+notes/phrases/selfish.md | selfish | neutral | 自分のことばかり考える、という非難である。 | phrase
 notes/phrases/what-kind-of.md | what kind of | neutral | どの種類か、と尋ねる。 | phrase
 notes/phrases/vegetables.md | vegetables | neutral | 野菜の複数形である。 | phrase
 notes/phrases/i-ve-been.md | I've been | neutral | 過去のある時点から今まで、その行動が続いている。 | phrase
 notes/phrases/ready-to-eat.md | ready-to-eat | neutral | 自分で一から作らなくてよい食事や食品を指す。 | phrase
 notes/phrases/hairdresser.md | hairdresser | neutral | 髪を切り、整える人である。 | phrase
+notes/phrases/lobster.md | lobster | neutral | 大きな甲殻類で、大きなはさみがある。 | phrase
+notes/phrases/shrimp.md | shrimp | neutral | 小さな甲殻類で、主に尾を食べる。 | phrase
+notes/phrases/expertise.md | expertise | neutral | ある分野の専門的な知識や技能である。 | phrase
