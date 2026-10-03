@@ -36,7 +36,7 @@
    - `notes/log/`
    - `Readme.md`
 5. `notes/optimize.md` に、`索引`、`クイズ`、`最終チャット` の三つの日付が `YYYY-MM-DD` で入っていることを確認する。読めないときだけ、索引を日本時間の前日、クイズと最終チャットを日本時間の今日にする。未来の日付は入れない。
-6. `powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/check-notebook.ps1` を実行する。失敗したら、検査の名前とファイルを報告して止める。ノートは更新しない。
+6. `powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/check-notebook.ps1` を実行する。これは clone 直後の1回である。日付をまたいだ最初のチャット以外では、同じ検査を繰り返さない。失敗したら、検査の名前とファイルを報告して止める。ノートは更新しない。
 7. `scripts/scan-public.ps1` が `mask-file` で失敗することは、非公開文字列がまだ空であるときの正常な結果である。成功させようとして文字列を書かない。
 8. commit しない。push しない。学習者の表現ファイルは、この手順では作らない。表現を入れるときは `docs/initial-load.md` に従い、ユーザーが渡したファイルだけを使う。
 
