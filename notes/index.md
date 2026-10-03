@@ -37,3 +37,8 @@ notes/phrases/i-guess.md | I guess | casual | はっきり確信はない、ま�
 notes/phrases/anyway.md | anyway | casual | 話を戻したり、話題を切り替えたりする。 | phrase
 notes/phrases/in-recent-years.md | in recent years | neutral | 近年では、という時期の置き方である。 | phrase
 notes/phrases/perspectives-on.md | perspectives on ___ | neutral | 〜についての見方、である。 | phrase
+notes/phrases/how-do-i-do-this-again.md | How do I do this again? | casual | やり方を忘れたので、もう一度教えてほしい、と聞く。 | phrase
+notes/phrases/looks-good.md | looks good | casual | 見たところよさそう、または問題なさそう、という言い方である。 | phrase
+notes/phrases/gonna.md | gonna | casual | going to の会話での形である。 | phrase
+notes/phrases/coward.md | coward | neutral | 危険や難しいことから逃げる人、勇気のない人、という非難である。 | phrase
+notes/phrases/say-what-you-think.md | say what you think | casual | 思っていることを、そのまま口に出してほしい、と言う。 | phrase

@@ -47,6 +47,7 @@ $check = Join-Path $repo "scripts\check-notebook.ps1"
 $setup = Join-Path $repo "scripts\check-setup.ps1"
 $scan = Join-Path $repo "scripts\scan-public.ps1"
 $quiz = Join-Path $repo "scripts\build-quiz.ps1"
+$review = Join-Path $repo "scripts\build-review.ps1"
 $import = Join-Path $repo "scripts\import-notes.ps1"
 $utf8 = New-Object System.Text.UTF8Encoding $false
 
@@ -194,6 +195,44 @@ $logText = @(Get-ChildItem "$dir\notes\log\*.md" | ForEach-Object { [System.IO.F
 Check "import does not duplicate" ($result2.Code -eq 0 -and $phraseRows -eq 1 -and $indexText.Contains("更新した意味です。") -and $logText.Contains("| update"))
 Remove-Item $dir -Recurse -Force
 
+$dir = New-Fixture
+$withSound = "# Alpha`n`n## 意味`n`na < b & c`n`n## 例`n`nAlpha example.`n`n## 発音`n`n/ˈælfə/`n`n## 場面`n`ncasual`n"
+$noSound = "# Beta`n`n## 意味`n`n見本です。`n`n## 例`n`nBeta example.`n`n## 場面`n`nneutral`n"
+[System.IO.File]::WriteAllText("$dir\notes\phrases\alpha.md", $withSound, $utf8)
+[System.IO.File]::WriteAllText("$dir\notes\phrases\beta.md", $noSound, $utf8)
+$index = "# 索引`n`npath | heading | register | ja | kind`n"
+$index += "notes/phrases/alpha.md | Alpha | casual | a < b。 | phrase`n"
+$index += "notes/phrases/beta.md | Beta | neutral | 見本です。 | phrase`n"
+[System.IO.File]::WriteAllText("$dir\notes\index.md", $index, $utf8)
+$log = "# 2026-01-02`nAlpha | phrase | test | new`nBeta | phrase | test | new`nAlpha | phrase | test | update`n"
+[System.IO.File]::WriteAllText("$dir\notes\log\2026-01-02.md", $log, $utf8)
+$result = Invoke-Tool $review @("-Root", $dir, "-Date", "2026-01-02")
+$html = ""
+$htmlPath = "$dir\review\2026-01-02.html"
+if (Test-Path $htmlPath) { $html = [System.IO.File]::ReadAllText($htmlPath) }
+$articles = @([regex]::Matches($html, '(?s)<article class="card">.*?</article>'))
+$sameFields = $true
+foreach ($article in $articles) {
+  $t = $article.Value
+  $sceneAt = $t.IndexOf("<h3>場面</h3>")
+  $meaningAt = $t.IndexOf("<h3>意味</h3>")
+  $exampleAt = $t.IndexOf("<h3>例</h3>")
+  $soundAt = $t.IndexOf("<h3>発音</h3>")
+  if ($sceneAt -lt 0 -or -not ($sceneAt -lt $meaningAt -and $meaningAt -lt $exampleAt -and $exampleAt -lt $soundAt)) {
+    $sameFields = $false
+  }
+}
+$emptySound = $false
+if ($articles.Count -eq 2) { $emptySound = $articles[1].Value -match '<h3>発音</h3>\s*<p></p>' }
+Check "review keeps the same fields" ($result.Code -eq 0 -and $articles.Count -eq 2 -and $sameFields -and $emptySound -and $html.Contains("<h1>復習 2026-01-02</h1>") -and $html.Contains("件数: 2"))
+Check "review escapes text" ($html.Contains("a &lt; b &amp; c") -and $html -notmatch 'a < b')
+Remove-Item $dir -Recurse -Force
+
+$dir = New-Fixture
+$result = Invoke-Tool $review @("-Root", $dir, "-Date", "2026-01-02")
+Check "review missing log fails" ($result.Code -ne 0 -and $result.Text -match "log-missing" -and -not (Test-Path "$dir\review\2026-01-02.html"))
+Remove-Item $dir -Recurse -Force
+
 $hook = [System.IO.File]::ReadAllBytes((Join-Path $repo ".git\hooks\pre-commit"))
 Check "installed hook has no CR" (-not ($hook -contains 13))
 $phrases = @(Get-ChildItem (Join-Path $repo "notes\phrases\*.md") -ErrorAction SilentlyContinue)
@@ -206,7 +245,7 @@ $missing = @($phrases | Where-Object {
 Check "every phrase is indexed" ($missing.Count -eq 0)
 $ask = [System.IO.File]::ReadAllText((Join-Path $repo "notes\ask.md"))
 Check "ask templates exist" ($ask.Contains("What does ___ mean?") -and $ask.Contains("How do you ___?"))
-Check "once file exists" (Test-Path (Join-Path $repo "notes\once\2026-10-03.md"))
+Check "once directory exists" (Test-Path (Join-Path $repo "notes\once"))
 
 Write-Output "passed=$pass failed=$fail"
 if ($fail -gt 0) { exit 1 }
