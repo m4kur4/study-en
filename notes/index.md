@@ -58,6 +58,32 @@ notes/phrases/trying-to.md | trying to | neutral | 今、それをしようと�
 notes/phrases/as-much-as-possible.md | as much as possible | neutral | できる範囲で、できるだけ多く、という程度である。 | phrase
 notes/phrases/stay-hydrated.md | stay hydrated | neutral | 体に必要な水分を保つ。 | phrase
 notes/phrases/as-often-as-possible.md | as often as possible | neutral | できる範囲で、できるだけ頻繁に、という回数である。 | phrase
+notes/phrases/a-day.md | a day | neutral | 1日あたり、という割合である。 | phrase
+notes/phrases/liters.md | liters | neutral | リットルの複数形である。 | phrase
+notes/phrases/a-little.md | a little | neutral | 程度を少しだけ、と下げる。 | phrase
+notes/phrases/sluggish.md | sluggish | neutral | 体や頭の動きが鈍く、元気が出ない感じである。 | phrase
+notes/phrases/might-not.md | might not | neutral | そうでない可能性がある、と断定を避ける。 | phrase
+notes/phrases/enough-sleep.md | enough sleep | neutral | 必要な量の睡眠である。 | phrase
+notes/phrases/usually.md | usually | neutral | たいてい、いつもではないが、多くの場合そうする。 | phrase
+notes/phrases/about.md | about | neutral | 数の前では、およそ、だいたい、である。 | phrase
+notes/phrases/maybe.md | maybe | casual | そうかもしれない、まだ決めていない、と可能性を残す。 | phrase
+notes/phrases/i-should.md | I should | neutral | 自分に向かって、そうするのがよい、と軽く決める。 | phrase
+notes/phrases/a-few.md | a few | neutral | 数えられるものが、少しの数ある。 | phrase
+notes/phrases/halloween.md | Halloween | neutral | 10月31日の夜の行事である。 | phrase
+notes/phrases/it-s-been-a-while.md | It's been a while | casual | 前回から、かなり時間がたっている。 | phrase
+notes/phrases/need-to.md | need to | neutral | そうする必要がある。 | phrase
+notes/phrases/let-know.md | let ___ know | neutral | 相手にその情報を伝える。 | phrase
+notes/phrases/how-i-feel.md | how I feel | neutral | 自分の気持ちを、その内容として話す。 | phrase
+notes/phrases/how-s-that.md | How's that? | casual | 今したことや提案が、相手にとってよいかを聞く。 | phrase
+notes/phrases/be-careful-not-to.md | be careful not to | neutral | その行動をしないよう、注意を促す。 | phrase
+notes/phrases/response.md | response | neutral | 相手の言葉や問いへの返事である。 | phrase
+notes/phrases/personal.md | personal | neutral | 自分の私的なことである。 | phrase
+notes/phrases/stranger.md | stranger | neutral | 面識のない人である。 | phrase
+notes/phrases/not-doing-well.md | not doing well | neutral | 調子がよくない、とやわらかく言う。 | phrase
+notes/phrases/not-all-right.md | not all right | neutral | 大丈夫ではない、と気持ちや状態を言う。 | phrase
+notes/phrases/that-s-why.md | That's why | casual | 前に言ったことが、その結果の理由だ、と結ぶ。 | phrase
+notes/phrases/probably.md | probably | neutral | おそらく、そうだろう、と確度を下げる。 | phrase
+notes/phrases/intermediate.md | intermediate | neutral | 二つの段階のあいだにある。 | phrase
 notes/phrases/what-kind-of.md | what kind of | neutral | どの種類か、と尋ねる。 | phrase
 notes/phrases/vegetables.md | vegetables | neutral | 野菜の複数形である。 | phrase
 notes/phrases/i-ve-been.md | I've been | neutral | 過去のある時点から今まで、その行動が続いている。 | phrase
