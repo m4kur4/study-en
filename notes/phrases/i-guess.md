@@ -8,6 +8,10 @@
 
 I guess we can leave now.
 
+## 発音
+
+/aɪ ɡes/。強勢は guess。会話では I が短く、/aɪ/ が g につながる。
+
 ## 場面
 
 casual

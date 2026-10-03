@@ -42,3 +42,24 @@ notes/phrases/looks-good.md | looks good | casual | 見たところよさそう�
 notes/phrases/gonna.md | gonna | casual | going to の会話での形である。 | phrase
 notes/phrases/coward.md | coward | neutral | 危険や難しいことから逃げる人、勇気のない人、という非難である。 | phrase
 notes/phrases/say-what-you-think.md | say what you think | casual | 思っていることを、そのまま口に出してほしい、と言う。 | phrase
+notes/phrases/follow-the-steps.md | follow the steps | neutral | 示された手順を、順番どおりにやってほしい、という言い方である。 | phrase
+notes/phrases/i-d-like-to.md | I'd like to | neutral | 丁寧に、そうしたい、と伝える。 | phrase
+notes/phrases/experience.md | experience | neutral | 話で知るだけでなく、自分でやって感じる、という動詞である。 | phrase
+notes/phrases/local-culture.md | local culture | neutral | その土地の人たちの暮らし方や習慣を指す。 | phrase
+notes/phrases/look-at.md | look at | casual | 視線をそちらへ向けてほしい、と促す。 | phrase
+notes/phrases/sea-of-clouds.md | sea of clouds | neutral | 雲が海のように広がって見える景色を指す。 | phrase
+notes/phrases/it-s-beautiful.md | it's beautiful | neutral | 見たものが美しい、と短く感想を言う。 | phrase
+notes/phrases/look-fit.md | look fit | casual | 見た目が魅力的だ、というカジュアルな褒めである。 | phrase
+notes/phrases/what-a-shame.md | What a shame | neutral | 残念だ、もったいない、と短く反応する。 | phrase
+notes/phrases/nice-to-see-you.md | nice to see you | neutral | 会えてうれしい、とあいさつする。 | phrase
+notes/phrases/good-for-you.md | Good for you | casual | 相手の成果やよい選択を認めて、よかったね、と返す。 | phrase
+notes/phrases/keep-it-up.md | keep it up | casual | 今のよい行いを、このまま続けて、と励ます。 | phrase
+notes/phrases/trying-to.md | trying to | neutral | 今、それをしようとしている。 | phrase
+notes/phrases/as-much-as-possible.md | as much as possible | neutral | できる範囲で、できるだけ多く、という程度である。 | phrase
+notes/phrases/stay-hydrated.md | stay hydrated | neutral | 体に必要な水分を保つ。 | phrase
+notes/phrases/as-often-as-possible.md | as often as possible | neutral | できる範囲で、できるだけ頻繁に、という回数である。 | phrase
+notes/phrases/what-kind-of.md | what kind of | neutral | どの種類か、と尋ねる。 | phrase
+notes/phrases/vegetables.md | vegetables | neutral | 野菜の複数形である。 | phrase
+notes/phrases/i-ve-been.md | I've been | neutral | 過去のある時点から今まで、その行動が続いている。 | phrase
+notes/phrases/ready-to-eat.md | ready-to-eat | neutral | 自分で一から作らなくてよい食事や食品を指す。 | phrase
+notes/phrases/hairdresser.md | hairdresser | neutral | 髪を切り、整える人である。 | phrase
