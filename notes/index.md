@@ -36,3 +36,4 @@ notes/phrases/why-did-i-do-that.md | Why did I do that? | casual | 自分のし�
 notes/phrases/i-guess.md | I guess | casual | はっきり確信はない、またはあまり気が進まない同意である。 | phrase
 notes/phrases/anyway.md | anyway | casual | 話を戻したり、話題を切り替えたりする。 | phrase
 notes/phrases/in-recent-years.md | in recent years | neutral | 近年では、という時期の置き方である。 | phrase
+notes/phrases/perspectives-on.md | perspectives on ___ | neutral | 〜についての見方、である。 | phrase
