@@ -117,3 +117,17 @@ notes/phrases/on-its-own.md | on its own | neutral | それだけで、ほかの
 notes/phrases/it-s-not-that-hard.md | It's not that hard | casual | そんなに難しくない、と直接言う。 | phrase
 notes/phrases/it-s-not-brain-surgery.md | It's not brain surgery | casual | そんなに難しいことではない、という冗談の比喩である。 | phrase
 notes/phrases/map-out.md | map out | casual | やることを、順や範囲が分かるように整理する。 | phrase
+notes/phrases/wanna.md | wanna | casual | want to の会話での形である。 | phrase
+notes/phrases/visualize.md | visualize | neutral | 頭の中や画面で、形にして見えるようにする。 | phrase
+notes/phrases/to-do-list.md | to-do list | casual | やることを書き出した一覧である。 | phrase
+notes/phrases/write-down.md | write down | neutral | 忘れないように、文字にして残す。 | phrase
+notes/phrases/casual.md | casual | neutral | 改まっていない、友達同士の会話で使う、という調子である。 | phrase
+notes/phrases/everyday.md | everyday | neutral | 普段の、日常の、という形容詞である。 | phrase
+notes/phrases/expression.md | expression | neutral | 決まった言い方である。 | phrase
+notes/phrases/give-up.md | give up | neutral | 習慣や試みをやめる。 | phrase
+notes/phrases/get-up.md | get up | neutral | ベッドから出て、起き上がる。 | phrase
+notes/phrases/every-morning.md | every morning | neutral | 毎朝、という習慣である。 | phrase
+notes/phrases/rambling.md | rambling | casual | とりとめなく、長く話すことである。 | phrase
+notes/phrases/don-t-worry.md | don't worry | casual | 心配しないで、と相手を安心させる。 | phrase
+notes/phrases/coming-soon.md | coming soon | neutral | もうすぐ来る、またはもうすぐ公開される。 | phrase
+notes/phrases/episode.md | episode | neutral | 番組や物語の1回分である。 | phrase
