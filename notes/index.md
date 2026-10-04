@@ -106,3 +106,11 @@ notes/phrases/hairdresser.md | hairdresser | neutral | 髪を切り、整える�
 notes/phrases/lobster.md | lobster | neutral | 大きな甲殻類で、大きなはさみがある。 | phrase
 notes/phrases/shrimp.md | shrimp | neutral | 小さな甲殻類で、主に尾を食べる。 | phrase
 notes/phrases/expertise.md | expertise | neutral | ある分野の専門的な知識や技能である。 | phrase
+notes/phrases/i-had-a-dream.md | I had a dream | neutral | 睡眠中に夢を見た、という言い方である。 | phrase
+notes/phrases/what-were-you-up-to.md | What were you up to? | casual | さっき何をしていたの、とカジュアルに聞く。 | phrase
+notes/phrases/grab.md | grab | casual | さっと取る、または急いで買う。 | phrase
+notes/phrases/bakery.md | bakery | neutral | パンや焼き菓子を売る店である。 | phrase
+notes/phrases/every-day.md | every day | neutral | 毎日、という習慣である。 | phrase
+notes/phrases/right.md | right? | casual | 文の終わりに付けて、そうだよね、と同意を求める。 | phrase
+notes/phrases/it-s-not-that-hard.md | It's not that hard | casual | そんなに難しくない、と直接言う。 | phrase
+notes/phrases/it-s-not-brain-surgery.md | It's not brain surgery | casual | そんなに難しいことではない、という冗談の比喩である。 | phrase
