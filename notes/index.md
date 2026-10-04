@@ -131,3 +131,9 @@ notes/phrases/rambling.md | rambling | casual | とりとめなく、長く話�
 notes/phrases/don-t-worry.md | don't worry | casual | 心配しないで、と相手を安心させる。 | phrase
 notes/phrases/coming-soon.md | coming soon | neutral | もうすぐ来る、またはもうすぐ公開される。 | phrase
 notes/phrases/episode.md | episode | neutral | 番組や物語の1回分である。 | phrase
+notes/phrases/aim.md | aim | neutral | ここでの目的である。 | phrase
+notes/phrases/get-across.md | get across | neutral | 相手に伝えて、分かってもらう。 | phrase
+notes/phrases/it-s-not-that-big-a-deal.md | It's not that big a deal | casual | そんなに大したことではない、と重要さを下げる。 | phrase
+notes/phrases/abbreviation.md | abbreviation | neutral | 語や句を短くした表記である。 | phrase
+notes/phrases/in-other-words.md | in other words | neutral | 同じ内容を、言い方を変えて言う。 | phrase
+notes/phrases/otherwise.md | otherwise | neutral | そうでなければ、という条件に使う。 | phrase
