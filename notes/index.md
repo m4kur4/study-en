@@ -112,5 +112,8 @@ notes/phrases/grab.md | grab | casual | さっと取る、または急いで買�
 notes/phrases/bakery.md | bakery | neutral | パンや焼き菓子を売る店である。 | phrase
 notes/phrases/every-day.md | every day | neutral | 毎日、という習慣である。 | phrase
 notes/phrases/right.md | right? | casual | 文の終わりに付けて、そうだよね、と同意を求める。 | phrase
+notes/phrases/how-is-your-day.md | How is your day? | casual | 今日の調子や過ごし方を聞く。 | phrase
+notes/phrases/on-its-own.md | on its own | neutral | それだけで、ほかの助けや、ほかの部分なしに、である。 | phrase
 notes/phrases/it-s-not-that-hard.md | It's not that hard | casual | そんなに難しくない、と直接言う。 | phrase
 notes/phrases/it-s-not-brain-surgery.md | It's not brain surgery | casual | そんなに難しいことではない、という冗談の比喩である。 | phrase
+notes/phrases/map-out.md | map out | casual | やることを、順や範囲が分かるように整理する。 | phrase
