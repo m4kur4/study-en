@@ -137,3 +137,5 @@ notes/phrases/it-s-not-that-big-a-deal.md | It's not that big a deal | casual | 
 notes/phrases/abbreviation.md | abbreviation | neutral | 語や句を短くした表記である。 | phrase
 notes/phrases/in-other-words.md | in other words | neutral | 同じ内容を、言い方を変えて言う。 | phrase
 notes/phrases/otherwise.md | otherwise | neutral | そうでなければ、という条件に使う。 | phrase
+notes/phrases/every-time.md | every time | neutral | そのことが起こるたびに、である。 | phrase
+notes/phrases/i-wonder.md | I wonder | neutral | どうなんだろう、と心の中で問う。 | phrase
