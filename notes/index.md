@@ -139,3 +139,4 @@ notes/phrases/in-other-words.md | in other words | neutral | 同じ内容を、�
 notes/phrases/otherwise.md | otherwise | neutral | そうでなければ、という条件に使う。 | phrase
 notes/phrases/every-time.md | every time | neutral | そのことが起こるたびに、である。 | phrase
 notes/phrases/i-wonder.md | I wonder | neutral | どうなんだろう、と心の中で問う。 | phrase
+notes/phrases/intentionally.md | intentionally | neutral | わざと、意図して、である。 | phrase
