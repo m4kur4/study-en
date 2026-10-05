@@ -156,3 +156,8 @@ notes/phrases/sweet-food.md | sweet food | neutral | 甘い食べ物である。
 notes/phrases/those-kinds-of.md | those kinds of | neutral | 今言った種類のものを、まとめて指す。 | phrase
 notes/phrases/convenience-store.md | convenience store | neutral | 食べ物や日用品を買う、小さな店である。 | phrase
 notes/phrases/often.md | often | neutral | 何度も、頻繁に、という回数である。 | phrase
+notes/phrases/sweets.md | sweets | neutral | 菓子や、甘いデザートである。 | phrase
+notes/phrases/try-not-to.md | try not to | neutral | しないようにする、という努力である。 | phrase
+notes/phrases/too-much.md | too much | neutral | 多すぎる量である。 | phrase
+notes/phrases/gain-weight.md | gain weight | neutral | 体重が増える。 | phrase
+notes/phrases/make-me.md | make me | neutral | 人に、そうさせる。 | phrase
