@@ -16,12 +16,14 @@
    - `.cursor/agents/english-expert.md`
    - `.cursor/skills/notebook-maintain/SKILL.md`
    - `.cursor/skills/english-quiz/SKILL.md`
+   - `.cursor/skills/english-review/SKILL.md`
    - `.cursor/hooks.json`
    - `.cursor/hooks/block-git.ps1`
    - `scripts/check-notebook.ps1`
    - `scripts/check-setup.ps1`
    - `scripts/scan-public.ps1`
    - `scripts/build-quiz.ps1`
+   - `scripts/build-review.ps1`
    - `scripts/import-notes.ps1`
    - `scripts/git-hooks/pre-commit`
    - `scripts/install-hook.ps1`

@@ -43,7 +43,7 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/import-notes.ps1
 3. `once` があれば、日本時間の今日の `notes/once/YYYY-MM-DD.md` へ足し、索引の種別を once にする。
 4. commit も push もしない。出題ファイルも、このスクリプトでは作り直さない。
 
-日付をまたいだ次のチャットが、先に `scripts/check-notebook.ps1` と `scripts/check-setup.ps1` を実行し、通過したら索引合わせ、同じ表現の索引行のまとめ、`scripts/build-quiz.ps1` を行う。近いだけの別表現はまとめない。過去の文は読み直さない。同じ日の質問では、この検査は繰り返さない。今日の出題へすぐ反映するときは、取り込みのあとで次を実行する。
+日付をまたいだ次のチャットが、先に `scripts/check-notebook.ps1` と `scripts/check-setup.ps1` を実行し、通過したら索引合わせ、同じ表現の索引行のまとめ、`scripts/build-quiz.ps1` を行う。日本時間の前日の日次ログがあれば、続けて `scripts/build-review.ps1 -Date 前日` を実行する。ログが無いときは、その HTML は作らない。近いだけの別表現はまとめない。過去の文は読み直さない。同じ日の質問では、この検査は繰り返さない。今日の出題へすぐ反映するときは、取り込みのあとで次を実行する。復習 HTML は、この出題だけの作り直しでは作らない。
 
 ```powershell
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/build-quiz.ps1
