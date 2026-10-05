@@ -140,3 +140,6 @@ notes/phrases/otherwise.md | otherwise | neutral | そうでなければ、と�
 notes/phrases/every-time.md | every time | neutral | そのことが起こるたびに、である。 | phrase
 notes/phrases/i-wonder.md | I wonder | neutral | どうなんだろう、と心の中で問う。 | phrase
 notes/phrases/intentionally.md | intentionally | neutral | わざと、意図して、である。 | phrase
+notes/phrases/put-away.md | put away | neutral | 物を、いつもの場所へ戻して片付ける。 | phrase
+notes/phrases/whip-out.md | whip out | casual | 物をさっと取り出して見せる。 | phrase
+notes/phrases/get-lost.md | Get lost | casual | あっちへ行け、と相手を突き放す。 | phrase
