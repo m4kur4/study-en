@@ -143,3 +143,16 @@ notes/phrases/intentionally.md | intentionally | neutral | わざと、意図し
 notes/phrases/put-away.md | put away | neutral | 物を、いつもの場所へ戻して片付ける。 | phrase
 notes/phrases/whip-out.md | whip out | casual | 物をさっと取り出して見せる。 | phrase
 notes/phrases/get-lost.md | Get lost | casual | あっちへ行け、と相手を突き放す。 | phrase
+notes/phrases/impressed.md | impressed | neutral | 感心した、という気持ちである。 | phrase
+notes/phrases/owner.md | owner | neutral | 店や会社などを持っている人である。 | phrase
+notes/phrases/mexican.md | Mexican | neutral | メキシコの、またはメキシコ出身である。 | phrase
+notes/phrases/background.md | background | neutral | 家族や、育った文化のことである。 | phrase
+notes/phrases/happy-to-hear-that-from-you.md | happy to hear that from you | neutral | それをあなたから聞けてうれしい、と返す。 | phrase
+notes/phrases/you-won-t.md | You won't | casual | 直前に出たことを、あなたはしない、という短い返しである。 | phrase
+notes/phrases/i-have-to-say.md | I have to say | neutral | 正直に言うと、という前置きである。 | phrase
+notes/phrases/happy-to.md | happy to | neutral | 喜んでそうする、という気持ちである。 | phrase
+notes/phrases/have-lunch.md | have lunch | neutral | 昼ごはんを食べる。 | phrase
+notes/phrases/sweet-food.md | sweet food | neutral | 甘い食べ物である。 | phrase
+notes/phrases/those-kinds-of.md | those kinds of | neutral | 今言った種類のものを、まとめて指す。 | phrase
+notes/phrases/convenience-store.md | convenience store | neutral | 食べ物や日用品を買う、小さな店である。 | phrase
+notes/phrases/often.md | often | neutral | 何度も、頻繁に、という回数である。 | phrase
