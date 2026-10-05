@@ -174,3 +174,5 @@ notes/phrases/since.md | since | neutral | 〜だから、という理由を表�
 notes/phrases/cheese.md | cheese | neutral | チーズである。 | phrase
 notes/phrases/cheesecake.md | cheesecake | neutral | チーズを使った、甘いケーキである。 | phrase
 notes/phrases/i-might-be.md | I might be | casual | そうである可能性がある、という短い返しである。 | phrase
+notes/phrases/good-at.md | good at | neutral | そのことが上手である。 | phrase
+notes/phrases/putting-things-into-words.md | putting things into words | neutral | 考えや気持ちを、言葉にする。 | phrase
