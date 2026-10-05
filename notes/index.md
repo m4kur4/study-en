@@ -161,3 +161,16 @@ notes/phrases/try-not-to.md | try not to | neutral | しないようにする、
 notes/phrases/too-much.md | too much | neutral | 多すぎる量である。 | phrase
 notes/phrases/gain-weight.md | gain weight | neutral | 体重が増える。 | phrase
 notes/phrases/make-me.md | make me | neutral | 人に、そうさせる。 | phrase
+notes/phrases/you-are-right.md | You are right | neutral | 相手の言ったことが正しい、と同意する。 | phrase
+notes/phrases/we-should.md | we should | neutral | 二人以上で、そうするのがよい、と提案する。 | phrase
+notes/phrases/both.md | both | neutral | 二人とも、または二つのものとも、である。 | phrase
+notes/phrases/be-careful-with.md | be careful with | neutral | そのものを扱うとき、注意する。 | phrase
+notes/phrases/sugar.md | sugar | neutral | 砂糖である。 | phrase
+notes/phrases/to-be-honest.md | to be honest | neutral | 率直に言うと、という前置きである。 | phrase
+notes/phrases/don-t-really.md | don't really | casual | あまり〜ではない、と否定をやわらげる。 | phrase
+notes/phrases/sweet-things.md | sweet things | neutral | 甘い食べ物や、甘い品である。 | phrase
+notes/phrases/that-much.md | that much | casual | そんなに、という程度である。 | phrase
+notes/phrases/since.md | since | neutral | 〜だから、という理由を表す。 | phrase
+notes/phrases/cheese.md | cheese | neutral | チーズである。 | phrase
+notes/phrases/cheesecake.md | cheesecake | neutral | チーズを使った、甘いケーキである。 | phrase
+notes/phrases/i-might-be.md | I might be | casual | そうである可能性がある、という短い返しである。 | phrase
