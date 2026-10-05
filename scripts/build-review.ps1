@@ -25,13 +25,9 @@ if (-not (Test-Path -LiteralPath $logPath)) { Fail "log-missing" "notes/log/$Dat
 $indexPath = Join-Path $root "notes\index.md"
 if (-not (Test-Path -LiteralPath $indexPath)) { Fail "index-missing" "notes/index.md" }
 
-function Escape-Html([string]$Value) {
+function As-Text([string]$Value) {
   if ($null -eq $Value) { return "" }
-  $Value = $Value -replace '&', '&amp;'
-  $Value = $Value -replace '<', '&lt;'
-  $Value = $Value -replace '>', '&gt;'
-  $Value = $Value -replace '"', '&quot;'
-  return $Value
+  return $Value.Trim()
 }
 
 function Get-Section([string]$Text, [string]$Name) {
@@ -83,53 +79,30 @@ foreach ($line in (Get-Content -LiteralPath $logPath -Encoding UTF8)) {
   if ($null -eq $example) { $example = "" }
   if ($null -eq $sound) { $sound = "" }
   if ([string]::IsNullOrWhiteSpace($scene)) { $scene = $item.Register }
-  $safeHeading = Escape-Html $heading
-  $safeScene = Escape-Html $scene
-  $safeMeaning = Escape-Html $meaning
-  $safeExample = Escape-Html $example
-  $safeSound = Escape-Html $sound
-  $card = "<article class=`"card`">$nl<h2>$safeHeading</h2>$nl"
-  $card += "<section><h3>場面</h3><p>$safeScene</p></section>$nl"
-  $card += "<section><h3>意味</h3><p>$safeMeaning</p></section>$nl"
-  $card += "<section><h3>例</h3><p>$safeExample</p></section>$nl"
-  $card += "<section><h3>発音</h3><p>$safeSound</p></section>$nl"
-  $card += "</article>"
+  $safeHeading = As-Text $heading
+  $safeScene = As-Text $scene
+  $safeMeaning = As-Text $meaning
+  $safeExample = As-Text $example
+  $safeSound = As-Text $sound
+  $card = "## $safeHeading$nl$nl"
+  $card += "### 場面$nl$nl$safeScene$nl$nl"
+  $card += "### 意味$nl$nl$safeMeaning$nl$nl"
+  $card += "### 例$nl$nl$safeExample$nl$nl"
+  $card += "### 発音$nl$nl$safeSound"
   $cards.Add($card)
 }
 
-$style = @'
-body{font-family:sans-serif;line-height:1.5;max-width:40rem;margin:2rem auto;padding:0 1rem;}
-h1{font-size:1.5rem;}
-.count{margin:0 0 1.5rem;}
-.card{border-top:1px solid #ccc;padding:1rem 0;}
-.card h2{font-size:1.25rem;margin:0 0 0.75rem;}
-.card h3{font-size:0.9rem;margin:0.75rem 0 0.25rem;}
-.card p{margin:0;white-space:pre-wrap;}
-'@
-$title = "復習 $Date"
-$body = $cards -join $nl
-$html = @"
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-<meta charset="utf-8">
-<title>$title</title>
-<style>
-$style
-</style>
-</head>
-<body>
-<h1>$title</h1>
-<p class="count">件数: $($cards.Count)</p>
-$body
-</body>
-</html>
-"@
+$body = $cards -join "$nl$nl"
+$md = "# 復習 $Date$nl$nl" + "件数: $($cards.Count)$nl$nl" + $body + $nl
 
 $reviewDir = Join-Path $root "review"
 if (-not (Test-Path -LiteralPath $reviewDir)) {
   New-Item -ItemType Directory -Path $reviewDir | Out-Null
 }
 $utf8 = New-Object System.Text.UTF8Encoding $false
-[System.IO.File]::WriteAllText((Join-Path $reviewDir "$Date.html"), $html, $utf8)
+[System.IO.File]::WriteAllText((Join-Path $reviewDir "$Date.md"), $md, $utf8)
+$htmlPath = Join-Path $reviewDir "$Date.html"
+if (Test-Path -LiteralPath $htmlPath) {
+  Remove-Item -LiteralPath $htmlPath -Force
+}
 exit 0

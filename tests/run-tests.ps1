@@ -207,30 +207,30 @@ $index += "notes/phrases/beta.md | Beta | neutral | 見本です。 | phrase`n"
 $log = "# 2026-01-02`nAlpha | phrase | test | new`nBeta | phrase | test | new`nAlpha | phrase | test | update`n"
 [System.IO.File]::WriteAllText("$dir\notes\log\2026-01-02.md", $log, $utf8)
 $result = Invoke-Tool $review @("-Root", $dir, "-Date", "2026-01-02")
-$html = ""
-$htmlPath = "$dir\review\2026-01-02.html"
-if (Test-Path $htmlPath) { $html = [System.IO.File]::ReadAllText($htmlPath) }
-$articles = @([regex]::Matches($html, '(?s)<article class="card">.*?</article>'))
+$md = ""
+$mdPath = "$dir\review\2026-01-02.md"
+if (Test-Path $mdPath) { $md = [System.IO.File]::ReadAllText($mdPath) }
+$articles = @([regex]::Matches($md, '(?ms)^## .+?(?=^## |\z)'))
 $sameFields = $true
 foreach ($article in $articles) {
   $t = $article.Value
-  $sceneAt = $t.IndexOf("<h3>場面</h3>")
-  $meaningAt = $t.IndexOf("<h3>意味</h3>")
-  $exampleAt = $t.IndexOf("<h3>例</h3>")
-  $soundAt = $t.IndexOf("<h3>発音</h3>")
+  $sceneAt = $t.IndexOf("### 場面")
+  $meaningAt = $t.IndexOf("### 意味")
+  $exampleAt = $t.IndexOf("### 例")
+  $soundAt = $t.IndexOf("### 発音")
   if ($sceneAt -lt 0 -or -not ($sceneAt -lt $meaningAt -and $meaningAt -lt $exampleAt -and $exampleAt -lt $soundAt)) {
     $sameFields = $false
   }
 }
 $emptySound = $false
-if ($articles.Count -eq 2) { $emptySound = $articles[1].Value -match '<h3>発音</h3>\s*<p></p>' }
-Check "review keeps the same fields" ($result.Code -eq 0 -and $articles.Count -eq 2 -and $sameFields -and $emptySound -and $html.Contains("<h1>復習 2026-01-02</h1>") -and $html.Contains("件数: 2"))
-Check "review escapes text" ($html.Contains("a &lt; b &amp; c") -and $html -notmatch 'a < b')
+if ($articles.Count -eq 2) { $emptySound = $articles[1].Value -match '(?s)### 発音\s*$' }
+Check "review keeps the same fields" ($result.Code -eq 0 -and $articles.Count -eq 2 -and $sameFields -and $emptySound -and $md.Contains("# 復習 2026-01-02") -and $md.Contains("件数: 2") -and -not (Test-Path "$dir\review\2026-01-02.html"))
+Check "review keeps literal text" ($md.Contains("a < b & c") -and $md -notmatch '&lt;' -and $md -notmatch '&amp;')
 Remove-Item $dir -Recurse -Force
 
 $dir = New-Fixture
 $result = Invoke-Tool $review @("-Root", $dir, "-Date", "2026-01-02")
-Check "review missing log fails" ($result.Code -ne 0 -and $result.Text -match "log-missing" -and -not (Test-Path "$dir\review\2026-01-02.html"))
+Check "review missing log fails" ($result.Code -ne 0 -and $result.Text -match "log-missing" -and -not (Test-Path "$dir\review\2026-01-02.md") -and -not (Test-Path "$dir\review\2026-01-02.html"))
 Remove-Item $dir -Recurse -Force
 
 $hook = [System.IO.File]::ReadAllBytes((Join-Path $repo ".git\hooks\pre-commit"))
