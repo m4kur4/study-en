@@ -176,3 +176,9 @@ notes/phrases/cheesecake.md | cheesecake | neutral | チーズを使った、甘
 notes/phrases/i-might-be.md | I might be | casual | そうである可能性がある、という短い返しである。 | phrase
 notes/phrases/good-at.md | good at | neutral | そのことが上手である。 | phrase
 notes/phrases/putting-things-into-words.md | putting things into words | neutral | 考えや気持ちを、言葉にする。 | phrase
+notes/phrases/on-another-note.md | on another note | neutral | 話を変えるときの前置きである。 | phrase
+notes/phrases/individual.md | individual | formal | 一人の人を、people より硬く言う。 | phrase
+notes/phrases/career.md | career | neutral | 仕事の経歴、または一生の仕事である。 | phrase
+notes/phrases/diversify.md | diversify | neutral | 種類が増えて、ばらける。 | phrase
+notes/phrases/a-friend-of-mine.md | a friend of mine | neutral | 自分の友人の一人である。 | phrase
+notes/phrases/of-mine.md | of mine | neutral | 自分の、という所有である。 | phrase
