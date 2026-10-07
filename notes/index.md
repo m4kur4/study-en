@@ -182,3 +182,14 @@ notes/phrases/career.md | career | neutral | 仕事の経歴、または一生�
 notes/phrases/diversify.md | diversify | neutral | 種類が増えて、ばらける。 | phrase
 notes/phrases/a-friend-of-mine.md | a friend of mine | neutral | 自分の友人の一人である。 | phrase
 notes/phrases/of-mine.md | of mine | neutral | 自分の、という所有である。 | phrase
+notes/phrases/you-know-me-too-well.md | You know me too well | casual | 私のことを、見透かすほどよく分かっている。 | phrase
+notes/phrases/too-well.md | too well | neutral | よすぎるほど、よく。 | phrase
+notes/phrases/out-of-this-world.md | out of this world | casual | この世のものとは思えないほど、すばらしい。 | phrase
+notes/phrases/for-a-bit-longer.md | for a bit longer | casual | もう少しのあいだ、である。 | phrase
+notes/phrases/a-bit.md | a bit | casual | 少し、である。 | phrase
+notes/phrases/be-here.md | be here | neutral | この場所にいる。 | phrase
+notes/phrases/if-i-had-to-choose.md | if I had to choose | neutral | どうしても一つ選ぶなら、という前置きである。 | phrase
+notes/phrases/taking-pictures.md | taking pictures | neutral | 写真を撮ることである。 | phrase
+notes/phrases/building.md | building | neutral | 建物である。 | phrase
+notes/phrases/is-it-okay-if.md | Is it okay if | neutral | してもいいですか、と許可をやわらかく尋ねる。 | phrase
+notes/phrases/take-this-call.md | take this call | neutral | 今かかってきている電話に出る。 | phrase
