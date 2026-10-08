@@ -193,3 +193,5 @@ notes/phrases/taking-pictures.md | taking pictures | neutral | 写真を撮る�
 notes/phrases/building.md | building | neutral | 建物である。 | phrase
 notes/phrases/is-it-okay-if.md | Is it okay if | neutral | してもいいですか、と許可をやわらかく尋ねる。 | phrase
 notes/phrases/take-this-call.md | take this call | neutral | 今かかってきている電話に出る。 | phrase
+notes/phrases/on-the-right-track.md | on the right track | neutral | やり方が正しい方向に進んでいる。 | phrase
+notes/phrases/always.md | always | neutral | いつでも、例外なく、である。 | phrase
