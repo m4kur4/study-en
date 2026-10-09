@@ -195,3 +195,9 @@ notes/phrases/is-it-okay-if.md | Is it okay if | neutral | してもいいです
 notes/phrases/take-this-call.md | take this call | neutral | 今かかってきている電話に出る。 | phrase
 notes/phrases/on-the-right-track.md | on the right track | neutral | やり方が正しい方向に進んでいる。 | phrase
 notes/phrases/always.md | always | neutral | いつでも、例外なく、である。 | phrase
+notes/phrases/how-did-you-get-here.md | How did you get here? | neutral | どうやってここへ来たか、と手段や道を聞く。 | phrase
+notes/phrases/get-here.md | get here | neutral | この場所へ到着する。 | phrase
+notes/phrases/today.md | today | neutral | 今日、である。 | phrase
+notes/phrases/thinking-of.md | thinking of | neutral | まだ決めていないが、そうするつもりでいる。 | phrase
+notes/phrases/burger.md | burger | casual | バンズに挟んだ肉の料理である。 | phrase
+notes/phrases/next-wednesday.md | next Wednesday | neutral | 次に来る水曜日である。 | phrase
