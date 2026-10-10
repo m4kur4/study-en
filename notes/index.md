@@ -212,3 +212,9 @@ notes/phrases/i-thought-as-much.md | I thought as much | neutral | そうだろ�
 notes/phrases/for-a-long-time.md | for a long time | neutral | 長いあいだ、である。 | phrase
 notes/phrases/practically.md | practically | neutral | ほとんど、である。 | phrase
 notes/phrases/desire.md | desire | formal | 強い望みである。 | phrase
+notes/phrases/it-sucks.md | it sucks | casual | ひどい、つまらない、というカジュアルな評価である。 | phrase
+notes/phrases/instead.md | instead | neutral | その代わりに、である。 | phrase
+notes/phrases/mauled.md | mauled | neutral | 激しく襲われて、体を傷つけられる。 | phrase
+notes/phrases/torture.md | torture | formal | 故意に、ひどい苦痛を与えることである。 | phrase
+notes/phrases/glad-i-met-you.md | glad I met you | neutral | あなたに会えてよかった、と別れるときに言う。 | phrase
+notes/phrases/see-you-around.md | see you around | casual | またどこかで会おう、という決まった約束のない別れである。 | phrase
