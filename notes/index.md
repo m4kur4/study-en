@@ -201,3 +201,14 @@ notes/phrases/today.md | today | neutral | 今日、である。 | phrase
 notes/phrases/thinking-of.md | thinking of | neutral | まだ決めていないが、そうするつもりでいる。 | phrase
 notes/phrases/burger.md | burger | casual | バンズに挟んだ肉の料理である。 | phrase
 notes/phrases/next-wednesday.md | next Wednesday | neutral | 次に来る水曜日である。 | phrase
+notes/phrases/some-other-day.md | some other day | casual | 今日ではなく、別の日に、である。 | phrase
+notes/phrases/sorry-about-that.md | Sorry about that | casual | 今のことで、ごめん、と軽く謝る。 | phrase
+notes/phrases/ask-you-again.md | ask you again | neutral | 同じ質問を、もう一度相手にする。 | phrase
+notes/phrases/going-to.md | going to | neutral | する予定である。 | phrase
+notes/phrases/have-left.md | have left | neutral | まだ残っている。 | phrase
+notes/phrases/this-week.md | this week | neutral | 今の週である。 | phrase
+notes/phrases/work.md | work | neutral | やるべき仕事や課題である。 | phrase
+notes/phrases/i-thought-as-much.md | I thought as much | neutral | そうだろうと思っていた、という反応である。 | phrase
+notes/phrases/for-a-long-time.md | for a long time | neutral | 長いあいだ、である。 | phrase
+notes/phrases/practically.md | practically | neutral | ほとんど、である。 | phrase
+notes/phrases/desire.md | desire | formal | 強い望みである。 | phrase
