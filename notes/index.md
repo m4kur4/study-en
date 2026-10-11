@@ -218,3 +218,12 @@ notes/phrases/mauled.md | mauled | neutral | 激しく襲われて、体を傷�
 notes/phrases/torture.md | torture | formal | 故意に、ひどい苦痛を与えることである。 | phrase
 notes/phrases/glad-i-met-you.md | glad I met you | neutral | あなたに会えてよかった、と別れるときに言う。 | phrase
 notes/phrases/see-you-around.md | see you around | casual | またどこかで会おう、という決まった約束のない別れである。 | phrase
+notes/phrases/okay-but.md | Okay, but | casual | 受け入れるが、まだ一つ質問や条件がある。 | phrase
+notes/phrases/how-big.md | how big | neutral | どのくらいの大きさか、と聞く。 | phrase
+notes/phrases/slice.md | slice | neutral | 大きいものから切った、一枚である。 | phrase
+notes/phrases/sounds-like-fun.md | sounds like fun | casual | それは楽しそうだ、と相手の話に乗る。 | phrase
+notes/phrases/get-the-chance.md | get the chance | neutral | 機会ができたら、である。 | phrase
+notes/phrases/come-over.md | come over | casual | 相手のところへ遊びに行く。 | phrase
+notes/phrases/not-yet.md | Not yet | casual | まだそうなっていない。 | phrase
+notes/phrases/i-don-t-think.md | I don't think | casual | そうではないと思う、と否定をやわらげる。 | phrase
+notes/phrases/surf.md | surf | neutral | 波に乗って板で滑る。 | phrase
