@@ -227,3 +227,9 @@ notes/phrases/come-over.md | come over | casual | 相手のところへ遊びに
 notes/phrases/not-yet.md | Not yet | casual | まだそうなっていない。 | phrase
 notes/phrases/i-don-t-think.md | I don't think | casual | そうではないと思う、と否定をやわらげる。 | phrase
 notes/phrases/surf.md | surf | neutral | 波に乗って板で滑る。 | phrase
+notes/phrases/go-out.md | go out | casual | 遊びに出かける。 | phrase
+notes/phrases/tonight.md | tonight | neutral | 今夜、である。 | phrase
+notes/phrases/need-some-sleep.md | need some sleep | casual | 少し眠る必要がある。 | phrase
+notes/phrases/have-never-been-there.md | have never been there | neutral | そこへ行ったことが、一度もない。 | phrase
+notes/phrases/someday.md | someday | neutral | いつか、という決めていない未来である。 | phrase
+notes/phrases/someone.md | someone | neutral | だれか一人である。 | phrase
