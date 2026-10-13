@@ -233,3 +233,5 @@ notes/phrases/need-some-sleep.md | need some sleep | casual | 少し眠る必要
 notes/phrases/have-never-been-there.md | have never been there | neutral | そこへ行ったことが、一度もない。 | phrase
 notes/phrases/someday.md | someday | neutral | いつか、という決めていない未来である。 | phrase
 notes/phrases/someone.md | someone | neutral | だれか一人である。 | phrase
+notes/phrases/sunset.md | sunset | neutral | 日が沈むときの空の景色である。 | phrase
+notes/phrases/isn-t-it.md | isn't it? | neutral | そうだよね、と同意を求める。 | phrase
