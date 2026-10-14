@@ -235,3 +235,7 @@ notes/phrases/someday.md | someday | neutral | いつか、という決めてい
 notes/phrases/someone.md | someone | neutral | だれか一人である。 | phrase
 notes/phrases/sunset.md | sunset | neutral | 日が沈むときの空の景色である。 | phrase
 notes/phrases/isn-t-it.md | isn't it? | neutral | そうだよね、と同意を求める。 | phrase
+notes/phrases/well.md | Well | casual | 話を切り出す、または少し考えてから言う。 | phrase
+notes/phrases/festival.md | festival | neutral | 祭りや、催しである。 | phrase
+notes/phrases/theme.md | theme | neutral | 催しを貫く中心の話題である。 | phrase
+notes/phrases/food.md | food | neutral | 食べ物である。 | phrase
