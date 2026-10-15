@@ -239,3 +239,4 @@ notes/phrases/well.md | Well | casual | 話を切り出す、または少し考�
 notes/phrases/festival.md | festival | neutral | 祭りや、催しである。 | phrase
 notes/phrases/theme.md | theme | neutral | 催しを貫く中心の話題である。 | phrase
 notes/phrases/food.md | food | neutral | 食べ物である。 | phrase
+notes/phrases/what-are-you-up-to.md | What are you up to? | casual | 今何をしているの、とカジュアルに聞く。 | phrase
