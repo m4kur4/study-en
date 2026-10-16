@@ -240,3 +240,10 @@ notes/phrases/festival.md | festival | neutral | 祭りや、催しである。 
 notes/phrases/theme.md | theme | neutral | 催しを貫く中心の話題である。 | phrase
 notes/phrases/food.md | food | neutral | 食べ物である。 | phrase
 notes/phrases/what-are-you-up-to.md | What are you up to? | casual | 今何をしているの、とカジュアルに聞く。 | phrase
+notes/phrases/sorry-for.md | Sorry for | casual | その理由でごめん、と謝る。 | phrase
+notes/phrases/make-you-wait.md | make you wait | neutral | 相手を待たせる。 | phrase
+notes/phrases/break.md | break | neutral | 物を壊す。 | phrase
+notes/phrases/plate.md | plate | neutral | 食べ物を載せる、平たい皿である。 | phrase
+notes/phrases/let-s-try.md | Let's try | casual | 一緒に、それを試そう、と提案する。 | phrase
+notes/phrases/another.md | another | neutral | 今のとは別の一つである。 | phrase
+notes/phrases/restaurant.md | restaurant | neutral | 食事を出す店である。 | phrase
