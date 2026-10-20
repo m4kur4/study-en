@@ -247,3 +247,18 @@ notes/phrases/plate.md | plate | neutral | 食べ物を載せる、平たい皿�
 notes/phrases/let-s-try.md | Let's try | casual | 一緒に、それを試そう、と提案する。 | phrase
 notes/phrases/another.md | another | neutral | 今のとは別の一つである。 | phrase
 notes/phrases/restaurant.md | restaurant | neutral | 食事を出す店である。 | phrase
+notes/phrases/all-right.md | All right | casual | さて、では、と取りかかるときの合図である。 | phrase
+notes/phrases/futon.md | futon | neutral | 畳んでしまう日本の寝具である。 | phrase
+notes/phrases/take-a-shower.md | take a shower | neutral | シャワーを浴びる。 | phrase
+notes/phrases/take-out-the-trash.md | take out the trash | neutral | ゴミを外へ出す。 | phrase
+notes/phrases/i-ve-got.md | I've got | casual | 自分には〜がある、とカジュアルに言う。 | phrase
+notes/phrases/have-to.md | have to | neutral | しなければならない。 | phrase
+notes/phrases/practice-piano.md | practice piano | neutral | ピアノを練習する。 | phrase
+notes/phrases/study-english.md | study English | neutral | 英語を勉強する。 | phrase
+notes/phrases/look-into.md | look into | neutral | 詳しく調べる。 | phrase
+notes/phrases/brain.md | brain | neutral | 頭の中にある、考える器官である。 | phrase
+notes/phrases/gets-damaged.md | gets damaged | neutral | 物に傷がつく。 | phrase
+notes/phrases/memory.md | memory | neutral | 覚えておく力、または覚えていたことである。 | phrase
+notes/phrases/lose-your-memory.md | lose your memory | neutral | 覚えていたことを思い出せなくなる。 | phrase
+notes/phrases/ingredients.md | ingredients | neutral | 料理に使う材料である。 | phrase
+notes/phrases/do-you-have.md | Do you have | neutral | 持っているかと聞く。 | phrase
