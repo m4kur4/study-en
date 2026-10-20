@@ -17,6 +17,7 @@
    - `.cursor/skills/notebook-maintain/SKILL.md`
    - `.cursor/skills/english-quiz/SKILL.md`
    - `.cursor/skills/english-review/SKILL.md`
+   - `.cursor/skills/english-translate/SKILL.md`
    - `.cursor/hooks.json`
    - `.cursor/hooks/block-git.ps1`
    - `scripts/check-notebook.ps1`
