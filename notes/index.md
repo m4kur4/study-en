@@ -262,3 +262,7 @@ notes/phrases/memory.md | memory | neutral | 覚えておく力、または覚�
 notes/phrases/lose-your-memory.md | lose your memory | neutral | 覚えていたことを思い出せなくなる。 | phrase
 notes/phrases/ingredients.md | ingredients | neutral | 料理に使う材料である。 | phrase
 notes/phrases/do-you-have.md | Do you have | neutral | 持っているかと聞く。 | phrase
+notes/phrases/i-love.md | I love | casual | 大好きだ、と気持ちを言う。 | phrase
+notes/phrases/customers.md | customers | neutral | 店に来る客である。 | phrase
+notes/phrases/yummy.md | yummy | casual | 食べ物がおいしい、というカジュアルな言い方である。 | phrase
+notes/phrases/candy.md | candy | neutral | 一粒ずつの甘いお菓子である。 | phrase
